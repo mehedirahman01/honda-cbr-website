@@ -1,0 +1,51 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Body Style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.bg-header{
+    background-color:#264653;   
+}
+
+/* Navbar */
+li>a{
+    font-weight: 500;
+}
+
+.btn{
+    background-color:#E76F51;
+    border-radius: 5px;
+}
+
+.login-button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Cover Section */
+#cover-first-p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#cover-h1{
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+}
+
+#cover-second-p{
+    color:#E0E0E0;
+}
+
+.purchase-button{
+    color: white;
+    text-decoration: none;
+    padding: 10px 46px;
+   
+}
+
