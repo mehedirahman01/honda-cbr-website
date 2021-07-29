@@ -1,5 +1,6 @@
 /* Import Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;400&display=swap');
 
 /* Body Style */
 body{
@@ -79,4 +80,18 @@ li>a{
 
 .client-name{
     color: #23A6F0;
+}
+
+/* FAQ Section */
+.faq-section{
+    font-family: 'Inter', sans-serif;
+}
+
+.border-1{
+    border: 1px solid #D5E5FB !important;
+}
+
+.faq-section p{
+    font-weight: 400;
+    color: #7E848C;
 }
