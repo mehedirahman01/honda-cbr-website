@@ -18,6 +18,7 @@ body{
 }
 
 /* Navbar */
+
 li>a{
     font-weight: 500;
 }
@@ -83,7 +84,7 @@ li>a{
 }
 
 /* FAQ Section */
-.faq-section{
+.faq-section .row{
     font-family: 'Inter', sans-serif;
 }
 
@@ -94,4 +95,15 @@ li>a{
 .faq-section p{
     font-weight: 400;
     color: #7E848C;
+}
+
+/* Large View Section */
+.tab-content{
+    overflow: visible;
+}
+
+.tab-content:hover .large-image{
+    transform: scaleX(1.2) scaleY(1.3);    
+    transition: transform 0.5s ease-in;
+    
 }
