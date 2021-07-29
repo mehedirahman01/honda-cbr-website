@@ -6,6 +6,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.custom-h1{
+    font-weight: 600;
+    line-height: 4.5rem;
+}
+
 /* Header */
 .bg-header{
     background-color:#264653;   
@@ -32,11 +37,6 @@ li>a{
     line-height: 22px;
 }
 
-#cover-h1{
-    font-size: 2.1rem;
-    font-weight: 600;
-    line-height: 4.5rem;
-}
 
 #cover-second-p{
     color:#E0E0E0;
@@ -46,6 +46,37 @@ li>a{
     color: white;
     text-decoration: none;
     padding: 10px 46px;
-   
 }
 
+/* Featured Bikes Section */
+
+.featured-p{
+    color: #E76F51;
+    font-weight: 600;
+    font-size: 14px;
+}
+.custom-hr{
+    width: 60px;
+    border: 1px solid #E76F51;
+}
+
+.apply-grayscale{
+    filter: grayscale(100%);
+}
+
+/* Clients Section */
+#orange-text{
+    color:#E76F51;
+}
+
+.clients-p{
+    color: #6C6C6C;
+}
+
+.fa-star{
+    color: #E77C40;
+}
+
+.client-name{
+    color: #23A6F0;
+}
